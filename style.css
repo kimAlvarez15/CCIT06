@@ -1,0 +1,74 @@
+
+
+
+#banner {
+    height: 90vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)),url('garden.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+.btn {
+    padding: 15px 30px;
+    font-weight: 900;
+    border-radius: 60px;
+    font-size: 18px;
+    transition: all 0.4s ease;
+    
+
+}
+
+.btn-brand {
+    background-color: red;
+    color: #FFF;
+    border: 2px solid #FFF;
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: #FFF;
+    border: 2px solid #FFF;
+}
+
+section {
+    padding:  100px 0;
+}
+
+#about h2{
+    font-size: 55px;
+    font-weight: 900;
+    color: red;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(36, 35, 34);
+}
+#about .btn-brand:hover{
+    color: black !important;
+    border-color: black !important;
+}
+#about{
+    background-color: rgb(19, 161, 233);
+}
+Tanawa-bala{
+    width: 40px;
+}
+#services .btn-brand:hover{
+    color: black !important;
+    border-color: black !important;
+}
+.card{
+    transition: background-color 0.3,color 0.3s;
+    /* border: 5px solid var(--border); /* Border style*/
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0,2);
+    border-radius: 30px;
+}
+.card :hover{
+    background-color: black;
+}
+    .card :hover card-title,
+    .card :hover card-text,
+.card :hover  btn{
+    color: bisque;
+
+}
